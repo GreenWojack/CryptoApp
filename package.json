@@ -1,0 +1,30 @@
+{
+  "name": "cryptoverse",
+  "version": "1.0.0",
+  "description": "Coin tracking app",
+  "author": "Green Wojack",
+  "scripts": {
+    "client": "npm run serve --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "nodemon server",
+    "start": "node server"
+  },
+  "main": "server.js",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "concurrently": "^7.2.1",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "morgan": "^1.10.0",
+    "node-fetch": "^2.6.7",
+    "vuetify": "^2.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16",
+    "sass": "~1.32.0",
+    "sass-loader": "^10.0.0",
+    "vue-cli-plugin-vuetify": "~2.5.1",
+    "vuetify-loader": "^1.7.0"
+  },
+  "license": "MIT"
+}
