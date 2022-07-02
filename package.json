@@ -7,7 +7,7 @@
   "description": "Coin tracking app",
   "author": "Green Wojack",
   "scripts": {
-    "client": "npm run serve --prefix client",
+    "client": "npm run build --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "server": "nodemon server",
     "start": "node server"
